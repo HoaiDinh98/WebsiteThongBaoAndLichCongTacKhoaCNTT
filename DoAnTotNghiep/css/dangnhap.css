@@ -1,0 +1,48 @@
+.background{
+    background: linear-gradient(90deg, #2cd9ff , #7effb2);
+    background-size: 400% 400%;
+    animation: animated 1s infinite ease-in-out;
+    border-radius: 20px;
+}
+
+@keyframes animated{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.bg{
+    background-origin:border-box;
+}
+.form-control{
+    border-radius: 15px;
+    padding: 15px;
+}
+input{
+    height: 40px;
+}
+.btn{
+    border-radius: 20px;
+    background-color: #2cd9ff;
+    color: #333;
+}
+ a{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+} 
+ .col-4{
+    display: grid;
+    margin: 0 auto;
+}
+.card{ 
+    transition: .25 ease-out;
+}
+.form-filde{
+    position: relative;
+}

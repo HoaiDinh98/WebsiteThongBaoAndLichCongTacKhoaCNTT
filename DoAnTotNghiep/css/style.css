@@ -1,0 +1,25 @@
+.header {
+    background-color: #0a558c;
+    border-bottom: 2px solid #ef5d08;
+	padding: 0px;
+}
+.header ul li a {
+    color: #C9DFF5;
+    font-size: 14px;
+
+}
+.header-bottom row ul li a{
+	color: #C9DFF5;
+    font-size: 14px;
+}
+.header-login p{
+	color: #C9DFF5;
+    font-size: 14px;
+}
+.navbar{
+	padding: 0;
+}
+
+.title{
+    font-size: 14px;
+}

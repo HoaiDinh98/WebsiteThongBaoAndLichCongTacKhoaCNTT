@@ -1,0 +1,8 @@
+.accordion-button::after {
+    color: white; /* Set the desired color, in this case, white */
+}
+
+/* Optional: If you want to change the color of the arrow icons on hover */
+.accordion-button:hover::after {
+    color: red; /* Set the desired hover color */
+}

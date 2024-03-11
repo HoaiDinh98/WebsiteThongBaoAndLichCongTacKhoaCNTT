@@ -1,0 +1,71 @@
+.page-header.navbar.navbar-fixed-top, .page-header.navbar.navbar-static-top {
+    z-index: 9995;
+}
+.page-header.navbar {
+    background-color: #0a558c;
+    border-bottom: 2px solid #ef5d08;
+}
+.page-header.navbar {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 50px;
+    min-height: 50px;
+    filter: none;
+    background-image: none;
+}
+.pace .pace-progress, .pace .pace-progress-inner, .page-header.navbar, .page-header.navbar .top-menu .navbar-nav>li.dropdown-tasks .dropdown-menu .dropdown-menu-list>li .progress .progress-bar {
+    box-shadow: none;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+a, button, code, div, img, input, label, li, p, pre, select, span, svg, table, td, textarea, th, ul {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+div {
+    display: block;
+}
+body {
+    font-family: Tahoma !important;
+    /* background-color: #f6f7f8; */
+}
+body {
+    color: #333;
+    padding: 0!important;
+    margin: 0!important;
+    direction: "ltr";
+    font-size: 14px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans",sans-serif;
+}
+:root {
+    --default-sidebar-background-color: #0094ff;
+    --default-sidebar-topmenu-background-color: #6fb6ff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
